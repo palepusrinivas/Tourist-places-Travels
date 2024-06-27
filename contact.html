@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="container p-2">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light" >
+             <a href="" class="navbar-brand">
+               
+               <img class="w-100 p-4" src="assests/logo.png" alt="">
+             </a>
+              <button
+                  class="navbar-toggler d-lg-none"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsibleNavId"
+                  aria-controls="collapsibleNavId"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+              >
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId ">
+                  <ul class="navbar-nav ">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="index.html" aria-current="page"
+                              >Home
+                              <span class="visually-hidden">(current)</span></a
+                          >
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="Menu.html">Menu</a>
+                      </li> <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                      </li> <li class="nav-item">
+                          <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                    
+                  </ul>
+              </div>
+          </div>
+        </nav>
+          
+      </header>
+      <script src="script.js"></script>
+      <section class="container-fluid  p-5 yes22">
+        <div class="row text-center">
+           <div class="col-12 col-md-6 "> 
+            <h1 class="btn btn-danger text-center" >Reservation</h1>
+            <h2  class="text-center">Book Tickets</h2>
+            <div class="row">
+                <div class="col-12 col-md-6">    
+             <div class="">
+            <form action=" Booking Tickets" name="contact" onsubmit=" return Booking()">
+          <div class="form-floating">
+            <input type="text" name="username" id="username" class="form-control" placeholder=""/>
+            <label for="">username</label>
+          </div>
+          <p id="userNote"></p>
+          <div class="form-floating">
+            <input type="text" name="phonenumber" id="phonenumber" class="form-control" placeholder=""/>
+            <label for="">phonenumber</label>
+          </div>
+          <p id="phoneNote"></p>
+           <div class="form-floating">
+            <input type="text" name="Email" id="Email" class="form-control" placeholder=""/>
+            <label for=""> Email</label>
+          </div>
+           <p id="EmailNote"></p>
+           <div class="form-floating">
+            <input type="text" name="" id="" class="form-control" placeholder="Date"/>
+            <label for="">Date</label>
+          </div>
+            </form>
+             </div>
+                </div>
+                <div class="col-12 col-md-6">    
+                     <div class="">
+                    <form action="">
+                  <div class="form-floating">
+                    <input type="text" name="" id="" class="form-control" placeholder="Name"/>
+                    <label for="">From</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="text" name="" id="" class="form-control" placeholder="Name"/>
+                    <label for="">To</label>
+                  </div>
+                   <div class="form-floating">
+                   <select input type="text" name="Persons" id="Persons" class="form-control" placeholder="">
+                    <option>1person</option><option>2person</option><option>3person</option><option>4person</option><option>5person</option>
+                    <option>6person</option>
+                    <label for="">Persons</label>
+                   </select>
+                  </div> <br>
+                   <div class="form-floating">
+                    <select input type="text" name="time" id="time" class="form-control" placeholder="">
+                        <option>7 AM</option><option>8 AM</option><option>10 AM</option><option>12 PM</option><option>16 PM</option>
+                        <option>19 PM</option><option>21 PM</option>
+                    <label for="">Time</label></select>
+                  </div>
+                    </form>
+                     </div>
+                        </div>
+            </div>
+            <button class="btn btn-outline-success text-center" onclick="Booking()">Book Now</button>
+               </div>
+               <div class="col-12 col-md-6">
+                   <div class="row text-end">
+                       <div class="col-12  ">
+                           <img class="w-100" src="assests/plane.jpg" alt="">
+                       </div>
+                   </div>
+               </div>
+               </div>
+               
+            </section>
+
+            <section class="container p-5">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                   <h3 class=" ">LOCATION </h3>
+                   <p>Pixbey Hyderabad</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                    <h3 class="IMG-ICON"> CALL US</h3>
+                      <p>(+91) 96 716 6879</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 col-lx-3">
+                    <h3 class="IMG-ICON"> OPENING HOURS</h3>
+                      <p>  08:00 AM – 7:00 PM</p>
+                      <p>Every Day</p>
+                </div>
+              </div>
+            </section>
+
+      <section class="container-fluid p-5 yes2 div yes6">
+        <div class="row">
+         <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <br>
+                  <img class="w-100 p-4" src="assests/logo.png" alt="">
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <h3>LINKS</h3>
+                    <br>
+                    <h4>Home</h4>
+                    <h4>Pricing</h4><h4>Portollo</h4><h4>Service</h4>
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <h3>Support</h3>
+                    <br>
+                    <h4>FAQ</h4>
+                    <h4>How it</h4><h4>Feature</h4><h4>Contact</h4> 
+                </div>   
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <h3>Contact</h3>
+                    <br>
+                    <h4>contact@Byapp.com</h4>
+                    <h4>palepusrinivas012@gmail.com</h4>
+                    <h4>Mon-Fri 8AM-7PM</h4><br><br><br><h6>Terms of use|Privacy Policy</h6>
+                </div>   
+    
+        </div>
+    
+    </section>
+      <script src="js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
